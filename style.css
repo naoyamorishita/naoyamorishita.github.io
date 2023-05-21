@@ -2,24 +2,24 @@
 *{margin:0;
 padding:0;}
 body{
-font-family: Times New Roman;
+font-family: Source Sans Pro;
 font-size:18px;
 line-height:1.7;
-color:#0D0D0D;
-background-color:#F2E7DC;
-opacity:0.9;}
+color:#3D5A80;
+background-color:#E0FBFC;
+opacity:0.75;}
 
 header{
 	height:10%;
-	background-color:#027373;
+	background-color:#293241;
 	text-align:center;
 	margin:relative;
 	padding:10%;
-	color:#F2E7DC;
+	color:#E0FBFC;
 }
 
 header p a{text-decoration:none;
-color:#F2E7DC;}
+color:#E0FBFC;}
 
 header h1{font-size:48px;}
 header h2{font-size:40px;}
@@ -34,34 +34,34 @@ margin:3px;}
 #nav li a{
 display:block;
 list-style: none;
-background:#A9D9D0;
+background:#E0FBFC;
 list-style: none;
 width:50%;
 height:10%;
 margin:0 auto;
-border: solid 2px #F2E7DC;
+border: solid 2px #3D5A80;
 text-align:center;
 position:center;
 display:box;
 width:100%;
 height:10%;
 text-decoration:none;
-color:#027373;
+color:#293241;
 padding:20px;
 font-size:16px;
 transition:all 0.1s linear;}
 
-#nav li a:hover{color:#A9D9D0;
-background:#027373;}
+#nav li a:hover{color:#E0FBFC;
+background:#293241;}
 
 #bod {
 margin:1% auto 1%;
 padding:7.5%;}
 
 #bod h2{font-size:28px;
-border-bottom:solid 5px #027373;}
+border-bottom:solid 5px #293241;}
 
-#bod h3{border-bottom:solid 3px #038C7F;}
+#bod h3{border-bottom:solid 3px #293241;}
 
 #bod ol{
 	padding-left:3em;
@@ -80,22 +80,23 @@ border-collapse: collapse;}
 
 #bod tr{height:20px;}
 
-#bod th, td {border:solid 3px #038C7F;
+#bod th, td {border:solid 3px #293241;
 text-align:left;
 padding-left:1%;}
 
-#bod th{background-color:#A9D9D0;
-color:#027373;}
+#bod th{background-color:#98C1D9;
+opacity:0.75;
+color:#293241;}
 
 #bod a{
-color:#027373;
+color:#EE6C4D;
 transition:all 0.1s linear;}
 
 #footer{
 display:block;
-background:#027373;
+background:#293241;
 text-align:center;
-color:#F2E7DC;}
+color:#E0FBFC;}
 
 #footer p a{text-decoration:none;
-color:#F2E7DC;}
+color:#E0FBFC;}
