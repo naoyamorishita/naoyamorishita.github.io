@@ -87,6 +87,10 @@ padding-left:1%;}
 #bod th{background-color:#A9D9D0;
 color:#027373;}
 
+#bod a{
+color:#027373;
+transition:all 0.1s linear;}
+
 #footer{
 display:block;
 background:#027373;
