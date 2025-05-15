@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" /> <!--Fitting the content to the device width-->
+	    <title>Portfolio</title>
+        <script src = "./script/controler.js" defer></script>
+        <link rel = "stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>	</head>
+
+
+
+    <body>
+        <h1>Naoya Morishita</h1>
+        <h2>A GIScientist with an Interest in Environmental Conservation</h2>
+        <p>Note this website has not been optimized for mobilephones!</p>
+        <div id = "head_container">
+            <div id = "intro">
+                <div id = "photo_box">
+                    <img src = "./data/10414.jpeg" id = "headshot">
+                </div>
+                <div id = "intro_txt_box">
+                    <p>Hi I'm Naoya Morishita!</p>
+                    <p>I am currently working for a consultancy company as <em>a GIScientist for international development projects</em> in Tokyo.</p>
+                    <p>I hold <em>Master in Science in Geographic Information Science</em> and <em>Bachelor of Arts and Sciences in Global Studies and Collaboration.</em>
+                    <p>I'm very interested in <em>GIS for environmental science</em>, particularly in <em>quantifying landscape change</em> using metrices.</p>
+                    <p>In my free time, I love traveling and reading books.</p>
+                    <p>(By the way, some people often ask what my 16 Personality is, so mine is <a href = "https://www.16personalities.com/infj-personality" target = "_blank">INFJ</a> which I personally believe it accurate.)
+                    <h3>Skills</h3>
+                    <p>I can <em>analyze spatial data</em> both with GUI (<em>ArcGIS, QGIS, Terrset</em>) and programming (<em>Python, R, PostGIS, Julia, GoogleEarthEngine</em>).</p>
+                    <p>I can apply the programming skills <em>to create automation tools</em> and <em>data visualization (JavaScript</em>) and just to enjoy the programming languages themselves (<em>Java</em> & little bit of Scala).</p>
+                    <p>The analyses are always done with my strong background of both <em>raster and vector GIS</em>, <em>remote sensing</em>, <em>map comparison</em>, and <em>statistics</em> to build an effective workflow.</p>
+                    <p>Also, from my undergraduate education, I learned theoretical backgrounds of <em>international development</em> and <em>environmental management</em> to set research questions.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Life Milestones</h2>
+        <p>The below interactive maps shows some stories of my life, showing where I lived, studied, and worked!</p>
+        <div id = "map">
+            <script type = "module">
+                import {map} from "./script/map_v2.js"
+                map
+            </script>
+        </div>
+        <div id = "button_container">
+            <button id = "prev"><</button>
+            <button id = "next">></button>
+        </div>
+        <script type = "module">
+            import {move_prv, move_next} from "./script/map_v2.js";
+            const btn_prev = document.getElementById("prev");
+            const btn_nxt = document.getElementById("next");
+
+            btn_prev.addEventListener("click", move_prv);
+            btn_nxt.addEventListener("click", move_next);
+        </script>
+
+        <h2>Projects</h2>
+        <div id = "projects">
+        </div>
+        <h3>Highlighted Course Work</h3>
+        <p><b class = "uni_name">Clark University (GPA: 3.98):</b> Advanced Vector/ Raster GIS | Remote Sensing | Map Comparison | Emerging Tech in Conservation | Spatial Database</p>
+        <p><b class = "uni_name">Aoyama Gakuin University:</b> International/ Regional Development | Environment Management | Environmental Sociology | Statistics | Fieldwork Theory | Infrastructure</p>
+ 
+
+    <footer id = "footer">
+        <p>Ⓒ Naoya Morishita</p>
+        <h2>External Link</h2>
+        <p><a href = "mailto: naoyamorishita@vivaldi.net">Mail</a> | <a href = "https://github.com/naoyamorishita">Github</a></p>
+    </footer>
+    
+</html>
