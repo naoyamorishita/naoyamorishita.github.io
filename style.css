@@ -90,7 +90,7 @@ footer{
 
 #map{
     display: block;
-    width: 95%;
+    width: 75%;
     height: 35rem;
     margin: auto;
 }
@@ -108,15 +108,10 @@ footer{
 #projects{
     display: grid;
     grid-template: 1fr 1fr 1fr;
+    gap: 1rem;
 }
 
-#projects>a{
-    text-decoration-line: none;
-}
 
-#projects>a:hover{
-    background-color: #73AABF80;
-}
 
 .uni_name{
     text-decoration-line: underline;
@@ -128,20 +123,31 @@ footer{
 }
 
 /*MIGRATION FROM JAVASCRIPT FILE*/
+/* .proj_cont{
+    margin: 0.5rem;
+} */
+
+.link_to_project{
+    text-decoration-line: none;
+}
+
+.link_to_project:hover{
+    background-color: #73AABF80;
+}
+
+.project{
+    padding: 1rem;
+    outline: solid;
+    outline-color: #73AABF;
+    height: 30rem;
+}
+
 .title_box{
     height: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.project{
-    padding: 0.5rem;
-    margin: 0.5rem;
-    outline: solid;
-    outline-color: #73AABF;
-    height: 30rem;
 }
 
 .proj_photo{

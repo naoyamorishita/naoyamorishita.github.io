@@ -32,7 +32,7 @@ function show_popup(cur_idx){
 }
 
 show_popup(0);
-console.log(gjson.features);
+
 // MOVE TO PREVIOUS/ NEXT WHEN BUTTON IS PRESSED (OPEN THE SELECTED ONE; CLOSE THE OTHERS)####
 let idx = 0
 export function move_prv(){
@@ -55,3 +55,17 @@ export function move_next(){
     show_popup(idx);
     map.panTo(new L.LatLng(geom[0], geom[1]));
 }
+
+// ADD A SMALL WORLD MAP####
+// Create Another Div within the Map====
+// Set the Map to the Top Left====
+
+// (Test: Change the Background Color to Red)====
+
+// Add a Map to the Div with Width of 100% with Margin====
+
+// When Button is Pressed Move to Another Place====
+/*Customize the move function here???? 
+But w/o popups
+Pins only one place
+*/
