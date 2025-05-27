@@ -1,2 +1,2 @@
-# Welcome to my website (Beta)!
-Note this GitHub page is a testing version and I will implement responsive CSS for mobile phone users!
+# new_website_playground
+I'm trying something here to build my new portfolio!
