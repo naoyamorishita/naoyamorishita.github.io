@@ -14,3 +14,4 @@ I'm trying something here to build my new portfolio!
 1. Add a mini map to show which area is indicated
 2. Add responsive design for mobile users and potentially for tablet users
     - https://www.w3schools.com/css/css_rwd_frameworks.asp
+3. Add some online courses to the end
