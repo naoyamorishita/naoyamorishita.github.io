@@ -38,12 +38,24 @@
 
         <h2>Life Milestones</h2>
         <p>The below interactive maps shows some stories of my life, showing where I lived, studied, and worked!</p>
-        <div id = "map">
-            <script type = "module">
-                import {map} from "./script/map_v2.js"
-                map
-            </script>
+        <div id = "maps">
+            <div id = "map">
+                <script type = "module">
+                    import {map} from "./script/map_v2.js"
+                    map
+                </script>
+                
+            </div>
+            <div id = "minimap">
+                <script type = "module">
+                    import {map2} from "./script/map_v2.js";
+                    map2
+                </script>
+            </div>
         </div>
+        
+        
+        
         <div id = "button_container">
             <button id = "prev"><</button>
             <button id = "next">></button>
@@ -60,10 +72,12 @@
         <h2>Projects</h2>
         <div id = "projects">
         </div>
-        <h3>Highlighted Course Work</h3>
-        <p><b class = "uni_name">Clark University (GPA: 3.98):</b> Advanced Vector/ Raster GIS | Remote Sensing | Map Comparison | Emerging Tech in Conservation | Spatial Database</p>
-        <p><b class = "uni_name">Aoyama Gakuin University:</b> International/ Regional Development | Environment Management | Environmental Sociology | Statistics | Fieldwork Theory | Infrastructure</p>
- 
+        <div id = "courses">
+            <h3>Highlighted Course Work</h3>
+            <p><b class = "uni_name">Clark University (GPA: 3.98):</b> Advanced Vector/ Raster GIS | Remote Sensing | Map Comparison | Emerging Tech in Conservation | Spatial Database</p>
+            <p><b class = "uni_name">Aoyama Gakuin University:</b> International/ Regional Development | Environment Management | Environmental Sociology | Statistics | Fieldwork Theory | Infrastructure</p>
+            <p><b class = "uni_name">Other Online Courses:</b> Become a Programmer: Foundations | Conservation Ecology | Landscape Ecology | Develop with Python for AI and Machine Learning | An Introduction to Synthetic Aperture Radar (SAR) and Its Applications</p>
+        </div>
 
     <footer id = "footer">
         <p>Ⓒ Naoya Morishita</p>
