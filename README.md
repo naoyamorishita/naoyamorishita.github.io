@@ -15,3 +15,5 @@ I'm trying something here to build my new portfolio!
 2. Add responsive design for mobile users and potentially for tablet users
     - https://www.w3schools.com/css/css_rwd_frameworks.asp
 3. Add some online courses to the end
+4. Solve weird behavior of button when hovered
+5. Disable zoom in/ out when pinch in/ pinch out
