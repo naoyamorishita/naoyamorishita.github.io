@@ -18,3 +18,7 @@ I'm trying something here to build my new portfolio!
 4. ~Solve weird behavior of button when hovered~(???)
 5. ~Disable zoom in/ out when pinch in/ pinch out~
 6. Check grammer/ wording
+
+## LICENSE files
+- Software components are licensed under EUPL Ver 1.2
+- The other components are licensed under CC-BY-4.0
